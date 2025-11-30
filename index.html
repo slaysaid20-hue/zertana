@@ -16,7 +16,14 @@
     </div>
     <nav>
       <a href="#">Home</a>
-      <a href="#">Shop</a>
+      <div class="dropdown">
+        <a href="#">Shop ▾</a>
+        <div class="dropdown-content">
+          <a href="#sneakers">Sneakers</a>
+          <a href="#apparel">Apparel</a>
+          <a href="#accessories">Accessories</a>
+        </div>
+      </div>
       <a href="#">About</a>
       <a href="#">Contact</a>
     </nav>
@@ -26,11 +33,11 @@
   <section class="hero">
     <div class="hero-text">
       <h1>Step Up Your Game</h1>
-      <p>Discover our latest collection of high-performance sneakers.</p>
+      <p>Discover our latest collection of high-performance sneakers and apparel.</p>
       <a href="#products" class="btn">Shop Now</a>
     </div>
     <div class="hero-image">
-      <img src="https://via.placeholder.com/500x400" alt="Sneakers">
+      <img src="https://images.unsplash.com/photo-1618354698328-6c891ff3f040?auto=format&fit=crop&w=500&q=80" alt="Sneakers">
     </div>
   </section>
 
@@ -38,24 +45,39 @@
   <section id="products" class="products">
     <h2>Featured Products</h2>
     <div class="product-grid">
+
+      <!-- Sneaker 1 -->
       <div class="product-card">
-        <img src="https://via.placeholder.com/250" alt="Product 1">
+        <img src="https://images.unsplash.com/photo-1618354698328-6c891ff3f040?auto=format&fit=crop&w=250&q=80" alt="Nike Air Zoom">
         <h3>Nike Air Zoom</h3>
         <p>$120.00</p>
         <a href="#" class="btn">Buy Now</a>
       </div>
+
+      <!-- Sneaker 2 -->
       <div class="product-card">
-        <img src="https://via.placeholder.com/250" alt="Product 2">
+        <img src="https://images.unsplash.com/photo-1618354698328-6c891ff3f041?auto=format&fit=crop&w=250&q=80" alt="Nike React">
         <h3>Nike React</h3>
         <p>$130.00</p>
         <a href="#" class="btn">Buy Now</a>
       </div>
+
+      <!-- Hoodie -->
       <div class="product-card">
-        <img src="https://via.placeholder.com/250" alt="Product 3">
-        <h3>Nike Air Max</h3>
-        <p>$150.00</p>
+        <img src="https://images.unsplash.com/photo-1618354698328-6c891ff3f042?auto=format&fit=crop&w=250&q=80" alt="Zertana Hoodie">
+        <h3>Zertana Hoodie</h3>
+        <p>$80.00</p>
         <a href="#" class="btn">Buy Now</a>
       </div>
+
+      <!-- Cap -->
+      <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1618354698328-6c891ff3f043?auto=format&fit=crop&w=250&q=80" alt="Zertana Cap">
+        <h3>Zertana Cap</h3>
+        <p>$25.00</p>
+        <a href="#" class="btn">Buy Now</a>
+      </div>
+
     </div>
   </section>
 
