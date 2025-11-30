@@ -1,0 +1,3 @@
+#sneakers-toggle:not(:checked) ~ .products-grid .sneakers { display: none; }
+#apparel-toggle:not(:checked) ~ .products-grid .apparel { display: none; }
+#accessories-toggle:not(:checked) ~ .products-grid .accessories { display: none; }
